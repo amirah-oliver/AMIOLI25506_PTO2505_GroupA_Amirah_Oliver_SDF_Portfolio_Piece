@@ -1,0 +1,241 @@
+/* Global Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #a7a4a4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  background: url(background.webp)
+}
+
+/* Main Content Container */
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Block/Section Layout */
+.block {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.profile-block {
+  text-align: center;
+}
+
+.profile-section {
+  display: flex;
+  gap: 20px;
+}
+
+.profile-card {
+  flex: 0 0 200px;
+  padding: 0; 
+}
+
+.profile-card.no-padding {
+  background: none; 
+  box-shadow: none; 
+}
+
+.profile-pic {
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  border-radius: 12px;
+  background: url('image0.jpeg') center/cover no-repeat;
+}
+
+.intro-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.intro-block {
+  text-align: left;
+}
+
+
+
+/* Two-column Section */
+.two-columns {
+  display: flex;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+}
+
+/* Proficiency Bars */
+.proficiency ul {
+  list-style: none;
+  padding: 0;
+}
+
+.proficiency-skills {
+  display: flex;
+  gap: 20px;
+}
+
+.proficiency, .skills {
+  flex: 1;
+}
+
+
+/* Adjust Proficiency List Items */
+.proficiency li {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 20px; 
+}
+
+
+.bar {
+  display: inline-block;
+  height: 12px; 
+  border-radius: 6px; 
+  background-color: #27b46e;
+  flex: 1; 
+  max-width: 150px; 
+}
+
+
+
+.advanced {
+  width: 80px;
+}
+
+.intermediate {
+  width: 50px;
+}
+
+/* Skill Tags */
+.skill-tags span {
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 6px 12px;
+  margin: 5px;
+  display: inline-block;
+  font-size: 14px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+/* Project Cards */
+.project-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.card {
+  background: #eaf4ec;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.card h4 {
+  margin-top: 0;
+}
+
+.card span {
+  float: right;
+  color: #666;
+  font-size: 13px;
+}
+
+/* Education and Experience */
+.edu-item, .exp-item {
+  margin-bottom: 15px;
+    background: #f6faf7;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.edu-item ul, .exp-item ul {
+  padding-left: 20px;
+}
+
+.tag {
+  background: #ff7043;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.education-tools {
+  display: flex;
+  gap: 20px;
+}
+
+.education {
+  flex: 2;
+}
+
+.tools-block {
+  flex: 1;
+}
+
+.tool-category {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.tool-header {
+  background: black;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.tool-icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 0;
+}
+
+
+/* Green Styling for Proficiency Block */
+.proficiency {
+  background: #ffffff
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  background: #ff7043;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
