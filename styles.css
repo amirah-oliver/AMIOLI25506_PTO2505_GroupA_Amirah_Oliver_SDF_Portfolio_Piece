@@ -54,7 +54,7 @@ body {
   height: 100%;
   min-height: 200px;
   border-radius: 12px;
-  background: url('image0.jpeg') center/cover no-repeat;
+  background: url('image0.jpeg') center/cover no-repeat; 
 }
 
 .intro-card {
