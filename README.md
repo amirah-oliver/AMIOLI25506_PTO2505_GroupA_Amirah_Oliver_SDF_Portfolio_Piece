@@ -121,5 +121,4 @@ You're not just building a resume site — you're building confidence, skills, a
 **You’ve got this. Let’s go! 🚀**
 
 MY RESUME HTML VIDEO : 
-https://www.veed.io/view/059e0907-69df-46e4-ac44-2ae387aa821c?panel=share
-
+https://www.veed.io/view/4dd2c507-8846-4ae2-8f7f-f7209fe69d6d?panel=share
